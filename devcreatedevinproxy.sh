@@ -7,7 +7,7 @@ fnupdate () {
 	git remote add origin $origin
 	git remote add remote $remote 
 	git remote add QuickStor $QuickStor
-	git fetch $remote 
+	git fetch $origin 
 	if [ $? -ne 0 ];
 	then
 		echo something went wrong while fetching for the first time  from remote $remote.. consult the devleloper
