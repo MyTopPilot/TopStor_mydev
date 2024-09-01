@@ -13,7 +13,7 @@ fnupdate () {
 		echo something went wrong while fetching for the first time  from remote $remote.. consult the devleloper
 		echo However, will continue creating the repos
 	fi
-	git checkout QSD3.15
+	git checkout -b QSD3.15
 	sync
 	sync
 	sync
